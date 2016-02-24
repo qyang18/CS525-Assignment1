@@ -55,7 +55,7 @@ extern char *testName;
 	printf("[%s-%s-L%i-%s] FAILED: expected true: %s\n",TEST_INFO, message); \
 	exit(1);							\
       }									\
-    /*printf("[%s-%s-L%i-%s] OK: expected true: %s\n",TEST_INFO, message); \*/\
+    printf("[%s-%s-L%i-%s] OK: expected true: %s\n",TEST_INFO, message); \
   } while(0)
 
 
